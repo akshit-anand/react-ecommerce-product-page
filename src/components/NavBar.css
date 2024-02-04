@@ -1,0 +1,44 @@
+.navbar {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right {
+    overflow: hidden;
+    padding: 18px;
+}
+a {
+    padding: 30px 20px;
+    color: #000;
+    text-decoration: none;
+}
+.logo {
+    font-size: 30px;
+    margin-right: 50px;
+    font-weight: bolder;
+}
+.links {
+    color: grey;
+}
+.links:hover {
+    color: #000;
+    border-bottom: 5px solid hsl(26, 100%, 55%);
+}
+.right .nav-icons {
+    margin: 0 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.cart-icon {
+    width: 25px;
+    position: relative;
+    top: -10px;
+}
+.profile-avatar {
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid transparent; 
+}
+.profile-avatar:hover {
+    border: 2px solid hsl(26, 100%, 55%);
+}

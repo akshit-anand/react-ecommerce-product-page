@@ -1,0 +1,29 @@
+.product-image {
+    margin: 50px 0;
+    padding: 10px;
+}
+.large-image {
+    width: 420px;
+    height: 400px;    
+}
+.large-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+.thumbnail img {
+    width: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.thumbnail img:hover {
+    opacity: 0.5;
+}
+.active {
+    border: 2px solid hsl(26, 100%, 55%);
+    opacity: 0.5;
+}

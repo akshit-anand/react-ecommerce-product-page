@@ -1,0 +1,11 @@
+.disc-price sup {
+    font-size: 18px;
+    padding: 5px;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 4px;
+}
+.base-price {
+    text-decoration: line-through;
+    color: hsl(219, 9%, 45%);
+}

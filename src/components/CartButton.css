@@ -1,0 +1,37 @@
+.cart-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.quantity {
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 6px;
+}
+.quantity img, .quantity span {
+    margin: 0 10px;
+}
+.quantity span {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+}
+.quantity img {
+    cursor: pointer;
+    padding: 10px;
+}
+.plus {
+    position:relative;
+    top: 8px;
+}
+.minus {
+    position: relative;
+    top: 6px;
+}
+
+.cart-button button {
+    padding: 10px 50px;
+}
+.cart-button button svg {
+    position: relative;
+    right: 10px;
+    top: 2px;
+}

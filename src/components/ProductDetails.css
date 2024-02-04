@@ -1,0 +1,15 @@
+.product-details {
+    padding: 25px;
+    margin: 50px 0;
+    width: 400px;
+
+}
+.company-name {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+}
+.product-description {
+    line-height: 1.5;
+    color: hsl(219, 9%, 45%);
+}
